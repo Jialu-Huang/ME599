@@ -26,6 +26,10 @@ class Complex:
         com_str = ""
         com_str += "(" + "%s" % ("%g" % self.real) + num_to_str(self.imag) + "i)"  #%+-g means display sign
         return com_str
+    '''
+    something wrong when print out the result
+    form wrong
+    '''
     #define formatted string for print()
     def __str__(self):
         return self.__repr__()
